@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+    <script src="bootstrap/js/popper.min.js"></script>
+    <script src="bootstrap/js/jquery.min.js"></script>
+    <script src="bootstrap/js/bootstrap.js"></script>
+    <title>Livros</title>
+</head>
+<body>
+    <div class="container py-4">
+
+            <nav class="navbar navbar-expand-lg navbar-light bg-light rounded">
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExample10" 
+                        aria-controls="navbarsExample10" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <a class="navbar-brand" rel="home" href="#">
+                    <img style="max-width:100px; margin-top: -7px;" src="assets/livros.webp">
+                </a>
+                <div class="collapse navbar-collapse justify-content-md-center" id="navbarsExample10">
+                    <ul class="navbar-nav">
+                        <li class="nav-item active">
+                            <a class="nav-link" href="index.html">Início <span class="sr-only">(atual)</span></a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="dropdown10" data-toggle="dropdown" aria-haspopup="true" 
+                                    aria-expanded="false">Livros</a>
+                            <div class="dropdown-menu" aria-labelledby="dropdown10">
+                            <a class="dropdown-item" href="form-add-livro.php">Cadastrar Livro</a>
+                            <a class="dropdown-item" href="exibirLivrosLidos.php">Listar Livros Lidos</a>
+                            <a class="dropdown-item" href="exibirLIvrosNLidos.php">Listar Livros não Lidos</a>
+                            <a class="dropdown-item" href="pesquisarLivro.html">Pesquisar Livro</a>
+                            </div>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="dropdown10" data-toggle="dropdown" aria-haspopup="true" 
+                                    aria-expanded="false">Gêneros Literários</a>
+                            <div class="dropdown-menu" aria-labelledby="dropdown10">
+                            <a class="dropdown-item" href="form-add-genero.html">Cadastrar Gênero Literário</a>
+                            <a class="dropdown-item" href="exibirGenero.php">Listar Gêneros Literários</a>
+                            <a class="dropdown-item" href="pesquisarGenero.html">Pesquisar Gênero Literário</a>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+     
+            <div class="jumbotron">
+                <p class="h3 text-center">Análise de Livros</p>
+            </div>
+        <div class="row py-4">
+            <div class="col-sm-12 text-center">
+                <h4>Este sistema ajudará você a relacionar livros com seus respectivos gêneros literários, permitindo fazer uma análise antes da leitura, além de possibilitar fazer um controle dos livros lidos e não lidos. </h4>
+            </div>
+        </div>
+        
+    <div class="container py-4">
+        <div class="card-footer text-center">
+            <p>&copy;CEFET-MG - Varginha 2024</p>
+        </div>
+    </div>
+</body>
+</html>
